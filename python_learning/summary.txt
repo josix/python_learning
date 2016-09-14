@@ -1,0 +1,20 @@
+ch1 digit,string, and variables: 
+	In this chapter we will see the basic elements in the python programing.
+	Introducing the simplest bulit-in types:
+		booleen
+		integer
+		float
+		string
+	and we also introduce the concept of variables, which is a name used to refer to a stored data. 
+	
+	sec1 Variables, name, and object
+		In python, all the types including bool, int, float, string, even large founction structure, are implemented by objects.**(s.tt python is consistent)
+
+		Object is simiar to a transprant box which keeps data and have their own types like int, bool, string... so as to present what things these objects could do. For instance, integer could add each other.  Moreover, types also decide the data stored in the box whether is mutable or not.
+
+		Python is a strong typing language, it means that objects' type is immutable however the value they keeped is mutable. Thus, we could define a varible which is a name refer to a value stored in memory. After defining a variable, we could use this variable in the program. In python, we use '=' symbol to assign value to a variable. 
+
+		強制轉換: bool -> int -> float
+		python string is not mutalble
+		當使用print() 時， python 會自動使用str() 函式
+		"a"b" -> "ab"
