@@ -99,7 +99,7 @@ prev + 				one or more prev, the more the better
 prev +? 			one or more prev, the less the better
 prev {m}			the m contiued prev
 prev {m, n}			the m~n continued prev, the more the better
-prev {m, n} 		the m~n continued prev, the less the better
+prev {m, n}?		the m~n continued prev, the less the better
 [abc]				a or b or c
 [^abc] 			not (a or b or c)
 prev (?=next) 		prev, if following a next
